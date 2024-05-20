@@ -1,14 +1,9 @@
-import logo from './logo_coin.png';
-import './App.css';
+
+import Header from './components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Investment Calculator</h1>
-      </header>
-    </div>
+      <Header />
   );
 }
 
